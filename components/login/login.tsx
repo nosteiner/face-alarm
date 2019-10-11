@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './login.css'
 
 type LoginProps = {
-  appName: string
+	appName: string
 }
 
 type LoginState = {
@@ -50,3 +50,5 @@ export class Login extends React.Component<LoginProps, LoginState> {
 		)
 	}
 }
+
+export default Login
